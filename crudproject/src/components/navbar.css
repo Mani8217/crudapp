@@ -1,0 +1,33 @@
+/* استایل نوار ناوبری */
+.navbar {
+    background-color: #555;
+    padding: 10px 0;
+    position: fixed;
+    top: 80px; /* این مقدار را مطابق با ارتفاع هدر تنظیم کنید؛ برای مثال اگر header 80px است */
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #00bcd4;
+  }
+  
